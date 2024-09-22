@@ -1,4 +1,4 @@
-package org.example.structural.adapter;
+package org.example.structural.adapter.objectAdapter;
 
 public class MalardDock implements Duck{
     @Override
