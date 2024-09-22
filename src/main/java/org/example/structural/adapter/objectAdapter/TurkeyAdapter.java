@@ -1,4 +1,4 @@
-package org.example.structural.adapter;
+package org.example.structural.adapter.objectAdapter;
 
 public class TurkeyAdapter implements Duck{
 
