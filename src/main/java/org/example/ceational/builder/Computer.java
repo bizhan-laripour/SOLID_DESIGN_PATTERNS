@@ -1,9 +1,9 @@
 package org.example.ceational.builder;
 
 public class Computer {
-    private String computerName;
-    private String computerType;
-    private String computerSize;
+    private final String computerName;
+    private final String computerType;
+    private final String computerSize;
     private Computer(String computerName, String computerType, String computerSize) {
         this.computerName = computerName;
         this.computerType = computerType;
