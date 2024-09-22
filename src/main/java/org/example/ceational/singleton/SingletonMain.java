@@ -1,6 +1,6 @@
 package org.example.ceational.singleton;
 
-import org.example.ceational.billPugh.BillPugh;
+import org.example.ceational.singleton.billPugh.BillPugh;
 import org.example.ceational.singleton.eager.Eager;
 import org.example.ceational.singleton.lazy.Lazy;
 import org.example.ceational.singleton.synchronize.SyncronizedSingleton;

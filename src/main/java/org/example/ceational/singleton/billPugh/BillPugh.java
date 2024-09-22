@@ -1,4 +1,4 @@
-package org.example.ceational.billPugh;
+package org.example.ceational.singleton.billPugh;
 
 public class BillPugh {
 
