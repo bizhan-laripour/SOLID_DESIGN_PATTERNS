@@ -1,6 +1,7 @@
 package org.example.ceational.factory;
 
 import org.example.ceational.factory.abstractFactory.FactoryProducer;
+import org.example.ceational.factory.professionalFactory.FactoryGenerator;
 import org.example.ceational.factory.simpleFactory.BookFactory;
 import org.example.ceational.factory.simpleFactory.Factory;
 import org.example.ceational.factory.simpleFactory.PhoneFactory;
@@ -10,7 +11,7 @@ public class FactoryMain {
 
     public static void main(String[] args) throws Exception {
 
-        // this is for simple factory 
+        // this is for simple factory
         Factory factory = new BookFactory();
         factory.getProduct().nameAndPrice();
 
@@ -27,5 +28,12 @@ public class FactoryMain {
         // this is for abstract factory
         FactoryProducer.getFactory("Color").getColor("Red").fill();
         FactoryProducer.getFactory("Shape").getShape("Circle").draw();
+
+
+        // this is for professional abstract factory pattern
+        FactoryGenerator.createMovieFactory("Comedy").getBollyWoodMovie().getMovieName();
+        FactoryGenerator.createMovieFactory("Comedy").getHollyWoodMovie().getMovieName();
+        FactoryGenerator.createMovieFactory("Action").getHollyWoodMovie().getMovieName();
+        FactoryGenerator.createMovieFactory("Action").getBollyWoodMovie().getMovieName();
     }
 }
