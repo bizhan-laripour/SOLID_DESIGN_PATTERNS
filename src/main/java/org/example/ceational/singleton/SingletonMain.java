@@ -1,6 +1,7 @@
 package org.example.ceational.singleton;
 
 import org.example.ceational.singleton.billPugh.BillPugh;
+import org.example.ceational.singleton.doubleCheckLocking.DoubleCheckLock;
 import org.example.ceational.singleton.eager.Eager;
 import org.example.ceational.singleton.lazy.Lazy;
 import org.example.ceational.singleton.synchronize.SyncronizedSingleton;
@@ -25,5 +26,9 @@ public class SingletonMain {
         BillPugh billPugh = BillPugh.getInstance();
         BillPugh billPugh2 = BillPugh.getInstance();
         System.out.println(billPugh == billPugh2);
+
+        DoubleCheckLock doubleCheckLock = DoubleCheckLock.getInstance();
+        DoubleCheckLock doubleCheckLock2 = DoubleCheckLock.getInstance();
+        System.out.println(doubleCheckLock == doubleCheckLock2);
     }
 }
