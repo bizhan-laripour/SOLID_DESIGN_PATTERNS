@@ -10,9 +10,10 @@ public abstract class Shape {
 
     public abstract void area();
 
-   public abstract void draw();
-   public void getColor() {
-       color.getColor();
-   }
+    public abstract void draw();
+
+    public void getColor() {
+        color.getColor();
+    }
 
 }
