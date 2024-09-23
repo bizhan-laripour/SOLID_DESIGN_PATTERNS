@@ -3,6 +3,7 @@ package org.example.structural.bridge.abstractFactoryVsBridge;
 
 public class ColorFactory extends AbstractFactory {
 
+
     @Override
     public ShapeInterface getShape(String shape) {
         return null;
@@ -13,6 +14,7 @@ public class ColorFactory extends AbstractFactory {
         return switch (color) {
             case "red" -> new Red();
             case "green" -> new Green();
+            case "black" -> new Black();
             default -> null;
         };
     }
