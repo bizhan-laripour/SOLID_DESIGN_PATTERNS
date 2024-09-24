@@ -1,6 +1,6 @@
 package org.example.structural.decorator;
 
-public class NotificationDecorator implements Notifier {
+public class NotificationDecorator implements Notifier{
 
     private final Notifier notifier;
 
@@ -9,7 +9,12 @@ public class NotificationDecorator implements Notifier {
     }
 
     @Override
-    public void sendMessage() {
-        notifier.sendMessage();
+    public String send(String message) {
+        return notifier.send(message);
     }
+
+    public void showMessage(String message) {
+        System.out.println(send(message));
+    }
+
 }

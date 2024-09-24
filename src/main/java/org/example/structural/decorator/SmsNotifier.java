@@ -5,7 +5,7 @@ public class SmsNotifier implements Notifier{
     private String name = "SMS Notifier";
 
     @Override
-    public void sendMessage() {
-        System.out.println("message send via "+name + " and content is : hello from SMS Notifier");
+    public String send(String message) {
+       return message + " from "+name;
     }
 }
