@@ -13,10 +13,13 @@ public class Client {
         ColorInterface green = colorFactory.getColor("green");
         green.fillColor();
 
+        ColorInterface black = colorFactory.getColor("black");
+        black.fillColor();
+
         ShapeInterface rectangle = shapeFactory.getShape("rectangle");
         ShapeInterface triangle = shapeFactory.getShape("triangle");
 
-        rectangle.setColorInterface(red);
+        rectangle.setColorInterface(black);
         rectangle.populate(3 , 5);
         rectangle.show();
 
