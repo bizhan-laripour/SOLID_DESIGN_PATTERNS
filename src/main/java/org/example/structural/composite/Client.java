@@ -1,6 +1,4 @@
-package org.example.structural.composition;
-
-import javax.print.attribute.standard.MediaSize;
+package org.example.structural.composite;
 
 public class Client {
 

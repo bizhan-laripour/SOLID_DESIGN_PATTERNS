@@ -1,10 +1,10 @@
-package org.example.structural.composition;
+package org.example.structural.composite;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * this class acts like composite in composition design pattern that
+ * this class acts like composite in composite design pattern that
  * holds list of components
  */
 public class Directory implements Employee {
