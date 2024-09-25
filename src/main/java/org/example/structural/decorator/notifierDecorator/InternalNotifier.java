@@ -1,4 +1,4 @@
-package org.example.structural.decorator;
+package org.example.structural.decorator.notifierDecorator;
 
 public class InternalNotifier extends NotificationDecorator{
 
