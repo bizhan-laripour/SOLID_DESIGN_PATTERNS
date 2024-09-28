@@ -11,3 +11,7 @@ this is a practice for some important design patterns
 ### 2. Structural Patterns
 #### 1- Adapter
 #### 2- Bridge
+#### 3- Composite
+#### 4- Decorator
+#### 5- FlyWeight
+#### 6- Proxy
