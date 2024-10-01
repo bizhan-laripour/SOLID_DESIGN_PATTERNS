@@ -15,3 +15,8 @@ this is a practice for some important design patterns
 #### 4- Decorator
 #### 5- FlyWeight
 #### 6- Proxy
+
+
+### 3. Behavioral Patterns
+#### 1- Chain of responsibility
+#### 2- Command 
