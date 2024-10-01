@@ -3,7 +3,7 @@ package org.example.behavioral.command.brokerCommand;
 public class Client {
 
     public static void main(String[] args) {
-        Broker broker = new Broker.Builder().totalAmount(5000).build();
+        Broker broker = new Broker.Builder().totalAmount(500000).build();
         Stock googleStock = new GoogleStock();
         Stock microsoftStock = new MicrosoftStock();
         Order buyGoogle = new BuyStock(googleStock);
