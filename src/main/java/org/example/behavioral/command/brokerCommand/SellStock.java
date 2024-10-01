@@ -12,4 +12,16 @@ public class SellStock implements Order{
     public void execute() {
         stock.sell();
     }
+
+    @Override
+    public int getQuantity() {
+        return stock.getQuantity();
+    }
+
+    @Override
+    public String getOrderName() {
+        return stock.getName();
+    }
+
+
 }
