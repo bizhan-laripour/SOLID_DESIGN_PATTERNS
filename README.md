@@ -20,3 +20,5 @@ this is a practice for some important design patterns
 ### 3. Behavioral Patterns
 #### 1- Chain of responsibility
 #### 2- Command 
+#### 3- Interpreter
+#### 4- Iterator
