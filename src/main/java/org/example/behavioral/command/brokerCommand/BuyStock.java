@@ -12,4 +12,14 @@ public class BuyStock implements Order {
     public void execute() {
         stock.buy();
     }
+
+    @Override
+    public int getQuantity() {
+        return stock.getQuantity();
+    }
+
+    @Override
+    public String getOrderName() {
+        return stock.getName();
+    }
 }

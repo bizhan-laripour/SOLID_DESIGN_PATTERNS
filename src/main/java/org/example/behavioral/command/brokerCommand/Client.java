@@ -3,13 +3,17 @@ package org.example.behavioral.command.brokerCommand;
 public class Client {
 
     public static void main(String[] args) {
-        Broker broker = new Broker();
-        Stock stock = new Stock();
-        Order buy = new BuyStock(stock);
-        Order sell = new SellStock(stock);
-        broker.takeOrder(buy);
-        broker.takeOrder(buy);
-        broker.takeOrder(sell);
+        Broker broker = new Broker.Builder().totalAmount(5000).build();
+        Stock googleStock = new GoogleStock();
+        Stock microsoftStock = new MicrosoftStock();
+        Order buyGoogle = new BuyStock(googleStock);
+        Order sellGoogle = new SellStock(googleStock);
+        Order buyMicrosoft = new BuyStock(microsoftStock);
+        Order sellMicrosoft = new SellStock(microsoftStock);
+        broker.takeOrder(buyGoogle);
+        broker.takeOrder(sellGoogle);
+        broker.takeOrder(buyMicrosoft);
+        broker.takeOrder(sellMicrosoft);
         broker.execute();
     }
 }

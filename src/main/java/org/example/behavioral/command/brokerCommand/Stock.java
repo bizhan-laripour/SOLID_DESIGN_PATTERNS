@@ -1,15 +1,12 @@
 package org.example.behavioral.command.brokerCommand;
 
-public class Stock {
+public interface Stock {
 
-    private String name = "Google";
-    private int quantity = 1000;
+    void buy();
 
-    public void buy(){
-        System.out.println("Buying " + name + " " + quantity);
-    }
+    void sell();
 
-    public void sell(){
-        System.out.println("Selling " + name + " " + quantity);
-    }
+    int getQuantity();
+
+    String getName();
 }
