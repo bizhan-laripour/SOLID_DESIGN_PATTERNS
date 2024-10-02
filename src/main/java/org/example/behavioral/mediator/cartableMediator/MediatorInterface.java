@@ -1,5 +1,7 @@
 package org.example.behavioral.mediator.cartableMediator;
 
-public class MediatorInterface {
+public interface MediatorInterface {
 
+    void sendToCartable(CartableLog cartableLog);
+    void addUser(String userId);
 }
