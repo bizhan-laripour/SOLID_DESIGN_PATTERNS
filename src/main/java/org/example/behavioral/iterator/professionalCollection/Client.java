@@ -6,9 +6,9 @@ public class Client {
 
         CustomCollection<String> customCollection = new CustomCollection.Builder<>().setSize(100).build();
         customCollection.add("hello");
-        customCollection.add("hello");
-        customCollection.add("hello");
-        customCollection.add("hello");
+        customCollection.add("world");
+        customCollection.add("i");
+        customCollection.add("want");
         Iterator<String> iterator = new CustomIterator<>(customCollection);
         iterator.print();
     }
