@@ -22,3 +22,5 @@ this is a practice for some important design patterns
 #### 2- Command 
 #### 3- Interpreter
 #### 4- Iterator
+#### 5- Mediator
+#### 6- Memento
