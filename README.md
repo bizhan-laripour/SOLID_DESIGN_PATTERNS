@@ -1,4 +1,4 @@
-this is a practice for some important design patterns 
+this is a practice for some important design patterns
 
 ### 1. Creational Patterns
 #### 1- Builder
