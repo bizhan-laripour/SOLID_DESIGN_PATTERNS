@@ -1,4 +1,4 @@
-this is a practice for some important design patterns 
+this is a practice for some important design patterns
 
 ### 1. Creational Patterns
 #### 1- Builder
@@ -15,3 +15,12 @@ this is a practice for some important design patterns
 #### 4- Decorator
 #### 5- FlyWeight
 #### 6- Proxy
+
+
+### 3. Behavioral Patterns
+#### 1- Chain of responsibility
+#### 2- Command 
+#### 3- Interpreter
+#### 4- Iterator
+#### 5- Mediator
+#### 6- Memento
