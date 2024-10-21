@@ -24,3 +24,8 @@ this is a practice for some important design patterns
 #### 4- Iterator
 #### 5- Mediator
 #### 6- Memento
+#### 7- Observer
+#### 8- State
+#### 9- Sterategy
+#### 10- Template
+#### 11- Visitor
